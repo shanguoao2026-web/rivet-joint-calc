@@ -1,0 +1,11 @@
+{
+  "name": "rivet-joint-calc",
+  "version": "1.0.0",
+  "description": "Riveted joint strength per pitch length",
+  "license": "MIT",
+  "author": "shanguoao2026-web",
+  "bin": { "rivet-joint-calc": "dist/cli.js" },
+  "engines": { "node": ">=18" },
+  "scripts": { "build": "tsc", "test": "npm run build && node test/cli.test.js" },
+  "devDependencies": { "@types/node": "^18.19.0", "typescript": "^5.7.0" }
+}
